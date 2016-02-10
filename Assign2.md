@@ -405,27 +405,39 @@ ssh lemonjello@guavanotebook.local
 
 **3.**
 
-Most populous sub-directory of ~
+Most populous sub-directory of ~/
 ```
 ~/Pictures
 ```
 
-command:
+command for first-level sub-directory size sorting:
 ```
 du -d 1 | sort -n
 ```
 
-**4.**
-
-command:
+command for matching to regex:
 ```
 du -h | grep 'regex'
 ```
 
-**5.**
+**4.**
 
 ![file inode](inode.png)
 
+**5.**
 
+command for listing mounted volumes:
+```
+ls -alG /Volumes
+```
+
+output:
+```
+total 8
+drwxrwxrwt@  4 root          admin    136 Feb  9 20:19 .
+drwxr-xr-x  33 root          wheel   1190 Feb  3 07:30 ..
+drwxr-xr-x   1 macbookpro15  staff  24576 Apr 13  2015 BOOTCAMP
+lrwxr-xr-x   1 root          admin      1 Feb  3 07:27 MacBook Pro 15 512 GB -> /
+```
 
 
