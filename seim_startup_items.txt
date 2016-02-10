@@ -1,0 +1,4 @@
+total 0
+drwxr-xr-x   3 root  wheel   102 Oct 12 08:50 .
+drwxr-xr-x  79 root  wheel  2686 Feb  9 20:19 ..
+drwxr-xr-x   4 root  wheel   136 May 22  2013 CUDA
