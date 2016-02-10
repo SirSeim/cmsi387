@@ -1,4 +1,9 @@
 # Assignment 2
+[sirseim]: https://twitter.com/sirseim "SirSeim's Twitter"
+[joshkuroda]: https://twitter.com/joshkuroda "Josh Kuroda's Twitter"
+#####[Edward Seim][sirseim] & [Joshua Kuroda][joshkuroda]
+
+## Process Survey
 
 **1.** 
 
@@ -361,6 +366,44 @@ top -o virt
 ```
 
 **4.**
+
+output:
+```
+daemon
+eseim
+jkuroda
+message+
+mysql
+ntop
+ntp
+postfix
+root
+sshd
+syslog
+www-data
+```
+
+command:
+```
+ps aux | awk '{ print $1 }' | sed '1 d' | sort | uniq
+```
+
+## I/O and File "Gymnastics"
+
+**1.**
+
+![SSH Tunnel](ssh_tunnel.png)
+
+**2.**
+
+![SSH Remote Ping](ssh_ping.png)
+
+command:
+```
+ssh lemonjello@guavanotebook.local
+```
+
+**3.**
 
 
 
