@@ -405,5 +405,27 @@ ssh lemonjello@guavanotebook.local
 
 **3.**
 
+Most populous sub-directory of ~
+```
+~/Pictures
+```
+
+command:
+```
+du -d 1 | sort -n
+```
+
+**4.**
+
+command:
+```
+du -h | grep 'regex'
+```
+
+**5.**
+
+![file inode](inode.png)
+
+
 
 
