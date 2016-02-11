@@ -350,3 +350,17 @@ du –h * | grep homework
 
 ```
 
+####4. On a Keck lab machine, create a file within ~. Run ls -i to determine that file’s inode number. Move this file to another directory inside ~, then move it to /tmp, then move it back to your home directory. After each move, use ls -i to see its inode number.
+
+a. Submit the output of ls -i both right after you created the file and after each file move.
+
+![LS](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/LS.png)
+
+b. Submit the piped commands that you would type in order to filter out all lines of ls -i’s output except for the file that you created.
+
+```
+ls –i | grep myFile.txt
+
+```
+
+
