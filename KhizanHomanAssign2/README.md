@@ -369,3 +369,319 @@ I plugged in an external hard drive titled NO_NAME (listed on the bottom).  Its 
 
 ![mount](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/mount.png)
 
+###CSI: OS
+
+####Pre-OS Software:
+
+![mount](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/preos.png)
+
+####Kernel Files:
+
+```
+total 0
+drwxr-xr-x  286 root  wheel  9724 Feb  9 10:31 .
+drwxr-xr-x   79 root  wheel  2686 Feb  9 20:19 ..
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:06 ALF.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD2400Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD2600Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD3800Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD4600Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD4800Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD5000Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD6000Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD7000Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD8000Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMD9000Controller.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDFramebuffer.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDMTLBronzeDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDRadeonVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDRadeonX3000.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDRadeonX3000GLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDRadeonX4000.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDRadeonX4000GLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDShared.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AMDSupport.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 ATIRadeonX2000.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:39 ATIRadeonX2000GA.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 ATIRadeonX2000GLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 ATIRadeonX2000VADriver.bundle
+drwxr-xr-x    3 root  wheel   102 Jan 12  2014 ATTOiSCSI.kext
+drwxr-xr-x    3 root  wheel   102 Oct 16  2013 AVFrameBuffer.kext
+drwxr-xr-x    3 root  wheel   102 Oct 16  2013 AVVideoCard.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 Apple16X50Serial.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:35 AppleACPIPlatform.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 AppleAHCIPort.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleAPIC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleBMC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:33 AppleBacklight.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 AppleBacklightExpert.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:27 AppleBluetoothMultitouch.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:10 AppleBluetoothRemote.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:04 AppleCameraInterface.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 AppleCredentialManager.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 AppleEFIRuntime.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 AppleFDEKeyStore.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 AppleFIVRDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 AppleFSCompressionTypeDataless.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 AppleFSCompressionTypeZlib.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:28 AppleFWAudio.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 AppleFileSystemDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:03 AppleGraphicsControl.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:27 AppleGraphicsPowerManagement.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:11 AppleHDA.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:27 AppleHIDKeyboard.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:27 AppleHIDMouse.kext
+drwxr-xr-x@   3 root  wheel   102 Jun 28  2015 AppleHIDTransport.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 AppleHPET.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:28 AppleHPM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:28 AppleHSSPIHIDDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:28 AppleHSSPISupport.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleHV.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 AppleHWSensor.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:14 AppleIRController.kext
+drwxr-xr-x@   3 root  wheel   102 Jun 28  2015 AppleInputDeviceSupport.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelBDWGraphics.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelBDWGraphicsFramebuffer.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelBDWGraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:20 AppleIntelBDWGraphicsMTLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelBDWGraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelBDWGraphicsVAME.bundle
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 AppleIntelCPUPowerManagement.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 AppleIntelCPUPowerManagementClient.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelFramebufferAzul.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelFramebufferCapri.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:20 AppleIntelGraphicsShared.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHD3000Graphics.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:39 AppleIntelHD3000GraphicsGA.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHD3000GraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHD3000GraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD4000Graphics.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD4000GraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:20 AppleIntelHD4000GraphicsMTLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD4000GraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD5000Graphics.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD5000GraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:20 AppleIntelHD5000GraphicsMTLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHD5000GraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHDGraphics.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHDGraphicsFB.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:39 AppleIntelHDGraphicsGA.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHDGraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelHDGraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelHSWVA.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:22 AppleIntelIVBVA.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssDmac.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssGspi.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssI2C.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssI2CController.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssSpiController.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleIntelLpssUART.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleIntelMCEReporter.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:26 AppleIntelPCHPMC.kext
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:40 AppleIntelSKLGraphics.kext
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:40 AppleIntelSKLGraphicsFramebuffer.kext
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:40 AppleIntelSKLGraphicsGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:38 AppleIntelSKLGraphicsMTLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:40 AppleIntelSKLGraphicsVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Oct 13 18:40 AppleIntelSKLGraphicsVAME.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelSNBGraphicsFB.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 AppleIntelSNBVA.bundle
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 AppleIntelSlowAdaptiveClocking.kext
+drwxr-xr-x@   3 root  wheel   102 Nov 12 10:45 AppleKextExcludeList.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleKeyStore.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 AppleKeyswitch.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:27 AppleLPC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 AppleLSIFusionMPT.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:11 AppleMCCSControl.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 AppleMCP89RootPortPM.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:24 AppleMIDIBluetoothDriver.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:26 AppleMIDIFWDriver.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:23 AppleMIDIIACDriver.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:24 AppleMIDIRTPDriver.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:23 AppleMIDIUSBDriver.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleMatch.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:06 AppleMikeyHIDDriver.kext
+drwxr-xr-x    3 root  wheel   102 Sep 12  2014 AppleMobileDevice.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleMobileFileIntegrity.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:03 AppleMultitouchDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:14 AppleOSXUSBNCM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleOSXWatchdog.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 ApplePlatformEnabler.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 AppleRAID.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:31 AppleRAIDCard.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 AppleRTC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleSDXC.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 AppleSEP.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 AppleSMBIOS.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleSMBusController.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleSMBusPCI.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 AppleSMC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:34 AppleSMCLMU.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 AppleSRP.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 AppleSmartBatteryManager.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:21 AppleStorageDrivers.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 AppleThunderboltDPAdapters.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 AppleThunderboltEDMService.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleThunderboltIP.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 AppleThunderboltNHI.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 AppleThunderboltPCIAdapters.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 AppleThunderboltUTDM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:31 AppleTopCase.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:26 AppleTyMCEDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBACM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:08 AppleUSBAudio.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBCDC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBDMM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBDisplays.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBECM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBEEM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:16 AppleUSBEthernet.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:07 AppleUSBEthernetHost.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:08 AppleUSBFTDI.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:14 AppleUSBMultitouch.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBNCM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:16 AppleUSBNetworking.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBTopCase.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 AppleUSBWCM.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 AppleUpstreamUserClient.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 28 19:37 AppleVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:16 AppleWWANAutoEject.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:11 AppleXsanScheme.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 Apple_iSight.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 AudioAUUC.kext
+drwxr-xr-x    3 root  wheel   102 May 23  2012 BJUSBLoad.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 BootCache.kext
+drwxr-xr-x    3 root  wheel   102 Sep  5  2013 CUDA.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:07 CellPhoneHelper.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 CoreCaptureResponder.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 CoreStorage.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 DSACL.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 DSAuth.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 22 18:48 DVFamily.bundle
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:11 Dont Steal Mac OS X.kext
+drwxr-xr-x    3 root  wheel   102 May 10  2013 DroboTBT.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 EAP-KRB.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:12 EAP-RSA.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 EAP-TLS.ppp
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 GeForce.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 GeForceAIRPlugin.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:39 GeForceGA.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 GeForceGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 GeForceMTLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 GeForceTesla.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 GeForceTeslaGLDriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 GeForceTeslaVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 GeForceVADriver.bundle
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 IO80211Family.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 IOACPIFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:11 IOAHCIFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:29 IOATAFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 IOAVBFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 IOAccelerator2D.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:33 IOAcceleratorFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:33 IOAcceleratorFamily2.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:10 IOAudioFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:10 IOBDStorageFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:18 IOBluetoothFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:18 IOBluetoothHIDDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:11 IOCDStorageFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 IODVDStorageFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:01 IOFireWireAVC.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 IOFireWireFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 IOFireWireIP.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:03 IOFireWireSBP2.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 IOFireWireSerialBusProtocolTransport.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 IOGraphicsFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 IOHDIXController.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 IOHIDFamily.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 IONDRVSupport.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:26 IONVMeFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 IONetworkingFamily.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 IOPCIFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:20 IOPlatformPluginFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 IOReportFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:11 IOSCSIArchitectureModelFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 IOSCSIParallelFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 IOSMBusFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:14 IOSerialFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 IOSlowAdaptiveClockingFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 IOStorageFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 IOStreamFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:10 IOSurface.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:03 IOThunderboltFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:12 IOTimeSyncFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:15 IOUSBAttachedSCSI.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:14 IOUSBFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:03 IOUSBHostFamily.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:12 IOUSBMassStorageClass.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:07 IOUSBMassStorageDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:07 IOUserEthernet.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:33 IOVideoFamily.kext
+drwxr-xr-x    3 root  wheel   102 May 22  2012 JMicronATA.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 L2TP.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 Libm.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 NVDAGF100Hal.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 NVDAGK100Hal.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 NVDANV50HalTesla.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 NVDAResman.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:40 NVDAResmanTesla.kext
+drwxr-xr-x@   3 root  wheel   102 Sep 16 18:24 NVDAStartup.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:01 NVMeSMARTLib.plugin
+drwxr-xr-x@   3 root  wheel   102 Sep 16 17:25 NVSMU.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 OSvKernDSPLib.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 PPP.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:03 PPPSerial.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 PPPoE.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 PPTP.ppp
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:15 Quarantine.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 Radius.ppp
+drwxr-xr-x@   3 root  wheel   102 Mar 26  2015 RemoteVirtualInterface.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 22 16:11 SMARTLib.plugin
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 SMCMotionSensor.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:10 Sandbox.kext
+drwxr-xr-x    3 root  wheel   102 Aug  6  2012 Soundflower.kext
+drwxr-xr-x@   6 root  wheel   204 Feb  3 07:25 System.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 TMSafetyNet.kext
+drwxr-xr-x    3 root  wheel   102 May 10  2013 TrustedDataSCSIDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:17 acfs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:17 acfsctl.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 autofs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 cd9660.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:14 cddafs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 corecapture.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:04 corecrypto.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 exfat.kext
+drwxr-xr-x    3 root  wheel   102 Aug 14  2013 hp_Deskjet_io_enabler.kext
+drwxr-xr-x    3 root  wheel   102 Aug 14  2013 hp_fax_io.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 19:13 iPodDriver.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 mcxalr.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 msdosfs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 ntfs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 pmtelemetry.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 pthread.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:08 smbfs.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 triggers.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:05 udf.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:09 vecLib.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 27 18:15 webcontentfilter.kext
+drwxr-xr-x@   3 root  wheel   102 Aug 26 17:03 webdav_fs.kext
+
+```
+
+####Startup Items:
+
+```
+total 0
+drwxr-xr-x   3 root  wheel   102 Oct 12 08:50 .
+drwxr-xr-x  79 root  wheel  2686 Feb  9 20:19 ..
+drwxr-xr-x   4 root  wheel   136 May 22  2013 CUDA
+```
+
+
+####The "First Process"
+![firstprocess](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/firstprocess.png)
+
+
+####Network Settings
+
+![network](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/network.png)
