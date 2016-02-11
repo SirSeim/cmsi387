@@ -327,7 +327,7 @@ ps aux | awk '{ print $1 }' | sed '1 d' | sort | uniq
 
 ####1. Create an ssh tunnel from this computer to a service that is visible from another ssh-capable computer (but, of course, not necessarily visible from the computer you’re using). Then, access that service from your computer through localhost and the tunneled port number.  Submit a screenshot of your successful connection to the remote service via the tunnel.
 
-![SSH][https://github.com/SirSeim/cmsi387/blob/master/KhizanHomanAssign2/IO_Gymnastics_1.png]
+[SSH]: https://github.com/SirSeim/cmsi387/blob/master/KhizanHomanAssign2/IO_Gymnastics_1.png
 
 
 ####2.Run something lengthy (ping, vm_stat/vmstat, loooooong download, finding the quadrillionth prime number…) inside screen; logout of that computer entirely, login again, and reconnect to screen to prove to yourself that the process has continued to run without interruption.
