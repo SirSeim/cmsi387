@@ -1,6 +1,9 @@
 # CMSI 387 Operating System
 
+## Irakli Khizanishvili & Joel Homan
+
 ######Assignment #2
+
 ######02/11/2016
 
 
