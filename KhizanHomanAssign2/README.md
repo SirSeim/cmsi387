@@ -329,12 +329,24 @@ ps aux | awk '{ print $1 }' | sed '1 d' | sort | uniq
 
 ![Screen Example](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/IO_Gymnastics_1.png)
 
-####2.Run something lengthy (ping, vm_stat/vmstat, loooooong download, finding the quadrillionth prime number…) inside screen; logout of that computer entirely, login again, and reconnect to screen to prove to yourself that the process has continued to run without interruption.
+####2. Run something lengthy (ping, vm_stat/vmstat, loooooong download, finding the quadrillionth prime number…)inside screen; logout of that computer entirely, login again, and reconnect to screen to prove to yourself that the process has continued to run without interruption.
 
 ![Screen Ping](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/Screen_ping.png)
 ![Screen Ping 2](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/Screen_ping_2.png)
 ![Screen Ping 3](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/Screen_ping_3.png)
 
 
+####3. Learn how to use du, which tells you how much disk space you’re using in a given directory.
+a. Which first-level subdirectory in ~ is taking up the most space? Submit the command that includes this information in as little output as possible.
 
+```
+du –sh * | sort –rn | head -1
+
+```
+b. Submit a command that displays only the disk usage of directories matching some regular expression. Hint: |.
+
+```
+du –h * | grep homework
+
+```
 
