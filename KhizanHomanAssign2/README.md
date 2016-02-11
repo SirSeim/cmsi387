@@ -1,7 +1,7 @@
 # CMSI 387 Operating System
 
-Assignment #2
-02/11/2016
+######Assignment #2
+######02/11/2016
 
 
 ###Process Survey
@@ -363,4 +363,9 @@ ls –i | grep myFile.txt
 
 ```
 
+####5. Pop a few storage devices (CD, DVD, flash drive, network drive, etc.) into your computer. Figure out the mount points for each device.
+
+I plugged in an external hard drive titled NO_NAME (listed on the bottom).  Its mount point is /Volumes/NO_NAME.
+
+![mount](https://raw.githubusercontent.com/SirSeim/cmsi387/master/KhizanHomanAssign2/mount.png)
 
